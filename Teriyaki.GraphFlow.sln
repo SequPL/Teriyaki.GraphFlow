@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1972
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teriyaki.GraphFlow", "src\Teriyaki.GraphFlow.csproj", "{BB014DEB-2E0B-4048-B72E-0BF02604ECEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB014DEB-2E0B-4048-B72E-0BF02604ECEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB014DEB-2E0B-4048-B72E-0BF02604ECEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB014DEB-2E0B-4048-B72E-0BF02604ECEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB014DEB-2E0B-4048-B72E-0BF02604ECEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C372968B-DF40-4D39-95C6-1F65CB684928}
+	EndGlobalSection
+EndGlobal
