@@ -9,7 +9,7 @@ Main goals :
 # Simple examples
 Graph creation from code :
 ``` C#
-			GraphModel _graph = null = new GraphModel();
+GraphModel _graph = null = new GraphModel();
 			//
 			const string constValue = "Test";
             //
@@ -73,7 +73,7 @@ This node has inputs and outputs.
 Node is only definion of something. To handle it and do something you need NodeHandler.
 
 Example :
-```
+``` C#
 public class InputValueNodeHandler : InputValueNode.HandlerBase
     {
         public override async Task OnExecute(IRuntimeContext c)
