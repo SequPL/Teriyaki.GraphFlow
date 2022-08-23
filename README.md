@@ -9,9 +9,9 @@ Main goals :
 # Simple examples
 Graph creation from code :
 ``` C#
-GraphModel _graph = null = new GraphModel();
-			//
-			const string constValue = "Test";
+	    GraphModel _graph = null = new GraphModel();
+	    //
+	    const string constValue = "Test";
             //
             var constStringNode = _graph.AddNode(new ConstStringNode()
             {
