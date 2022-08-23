@@ -8813,8 +8813,8 @@
     },
     "Teriyaki.GraphFlow/1.0.0": {
       "type": "project",
-      "path": "../../src/Teriyaki.GraphFlow/Teriyaki.GraphFlow.csproj",
-      "msbuildProject": "../../src/Teriyaki.GraphFlow/Teriyaki.GraphFlow.csproj"
+      "path": "../src/Teriyaki.GraphFlow.csproj",
+      "msbuildProject": "../src/Teriyaki.GraphFlow.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8831,25 +8831,25 @@
   },
   "packageFolders": {
     "C:\\Users\\micha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\D\\priv\\Teriyaki\\tests\\Teriyaki.GraphFlow.Tests\\Teriyaki.GraphFlow.Tests.csproj",
+      "projectUniqueName": "C:\\D\\Priv\\Teriyaki.GraphFlow\\tests\\Teriyaki.GraphFlow.Tests.csproj",
       "projectName": "Teriyaki.GraphFlow.Tests",
-      "projectPath": "C:\\D\\priv\\Teriyaki\\tests\\Teriyaki.GraphFlow.Tests\\Teriyaki.GraphFlow.Tests.csproj",
+      "projectPath": "C:\\D\\Priv\\Teriyaki.GraphFlow\\tests\\Teriyaki.GraphFlow.Tests.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\D\\priv\\Teriyaki\\tests\\Teriyaki.GraphFlow.Tests\\obj\\",
+      "outputPath": "C:\\D\\Priv\\Teriyaki.GraphFlow\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8857,18 +8857,18 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/VDzTgyUPjVLwqvRoaRPawI2fLYswb72yyrIYVAdBtrMYnzu3KS/api": {}
+        "https://dotnetfeed.blob.core.windows.net/dotnet-iot/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\D\\priv\\Teriyaki\\src\\Teriyaki.GraphFlow\\Teriyaki.GraphFlow.csproj": {
-              "projectPath": "C:\\D\\priv\\Teriyaki\\src\\Teriyaki.GraphFlow\\Teriyaki.GraphFlow.csproj"
+            "C:\\D\\Priv\\Teriyaki.GraphFlow\\src\\Teriyaki.GraphFlow.csproj": {
+              "projectPath": "C:\\D\\Priv\\Teriyaki.GraphFlow\\src\\Teriyaki.GraphFlow.csproj"
             }
           }
         }
@@ -8931,7 +8931,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }

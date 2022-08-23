@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QGzA/7OTjvEC66Wf3XgT3mMn0yjx/fuZaBzWfaSFuDUvK2AEa+08ImImGYCs9ou6WVzM5RezI0upmgb7NUjGMg==",
+  "dgSpecHash": "hS8hC3w12KGRxIkKILgU82PtLf202sx5lZvdhme+k9yPlTAaaMFG3SiHlS72TvB4g7wEiwpRaluDc3sKrELOsg==",
   "success": true,
-  "projectFilePath": "C:\\D\\priv\\Teriyaki\\tests\\Teriyaki.GraphFlow.Tests\\Teriyaki.GraphFlow.Tests.csproj",
+  "projectFilePath": "C:\\D\\Priv\\Teriyaki.GraphFlow\\tests\\Teriyaki.GraphFlow.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0-preview.1\\autofac.extensions.dependencyinjection.7.2.0-preview.1.nupkg.sha512",

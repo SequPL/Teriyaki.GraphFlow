@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Teriyaki.GraphFlow\Teriyaki.GraphFlow.csproj" />
+    <ProjectReference Include="..\src\Teriyaki.GraphFlow.csproj" />
   </ItemGroup>
 
 </Project>
