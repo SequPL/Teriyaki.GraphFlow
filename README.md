@@ -97,5 +97,5 @@ It can do anything, but main functions are :
 - TriggerOutputSlot
 
 # Coming soon 
-- Teriyaki.GraphFlow.LiteGraph - ui for editing graphs ( use https://github.com/jagenjo/litegraph.js ), something like : ![MyNodes](https://github.com/jagenjo/litegraph.js/raw/master/imgs/mynodes.png "MyNodes")
+- Teriyaki.GraphFlow.LiteGraph - ui for editing graphs ( with https://github.com/jagenjo/litegraph.js ), something like : ![MyNodes](https://github.com/jagenjo/litegraph.js/raw/master/imgs/mynodes.png "MyNodes")
 
