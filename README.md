@@ -6,7 +6,7 @@ Main goals :
 - graphs must be serializable
 - "fluent" node definions
 
-# Simple examples
+# Example
 Graph creation from code :
 ``` C#
 	    GraphModel _graph = null = new GraphModel();
@@ -42,7 +42,7 @@ await runtime.RunOnce();
 
 ```
 
-# Create new node
+# Create new node definition
 Nodes may have : 
 - state
 - outputs
