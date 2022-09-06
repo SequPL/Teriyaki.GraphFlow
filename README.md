@@ -9,27 +9,28 @@ Main goals :
 # Example
 Graph creation from code :
 ``` C#
-	    var graph = new GraphModel();
-	    //
-	    const string constValue = "Test";
+var graph = new GraphModel();
+//
+const string constValue = "Test";
 
-            // add node #1 <- ConstStringNode
-            var constStringNode = graph.AddNode(new ConstStringNode()
-            {
-                PropertiesData = new ConstStringNode.Properties()
-                {
-                    Value = constValue
-                }
-            });
-	    // add node #2 <- InputValueNode
-            var inputValueNode = graph.AddNode(new InputValueNode());
+// add node #1 <- ConstStringNode
+var constStringNode = graph.AddNode(new ConstStringNode()
+{
+    PropertiesData = new ConstStringNode.Properties()
+    {
+        Value = constValue
+    }
+});
 
-            // add link between node #1 and #2
-            graph.AddLink(new()
-            {
-                OutputId = constStringNode.GetOutputId(q => q.Value),
-                InputId = inputValueNode.GetInputId(q => q.Value),
-            });
+// add node #2 <- InputValueNode
+var inputValueNode = graph.AddNode(new InputValueNode());
+
+// add link between node #1 and #2
+graph.AddLink(new()
+{
+    OutputId = constStringNode.GetOutputId(q => q.Value),
+    InputId = inputValueNode.GetInputId(q => q.Value),
+});
 ```
 
 Run Graph : 
